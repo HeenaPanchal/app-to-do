@@ -1,3 +1,21 @@
+.todo-app{
+  border: 1px solid black ;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 h1 {
   color: red;
+}
+.complete{
+  text-decoration-line: line-through;
+  background: pink;
+}
+.todo-row{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
 }
